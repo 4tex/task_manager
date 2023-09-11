@@ -18,8 +18,9 @@ With default pagination to get the first 20:
 Retrieve a Specific Task by its ID
 Assuming ID = 2 as an example; also provides sorting, filtering, and pagination:
 
-```curl -H "x-api-key: abc123def456ghi789" "http://localhost:3000/tasks/2?page=1&limit=10&title=SampleTitle&sortBy=id&order=asc"```
-
+```
+curl -H "x-api-key: abc123def456ghi789" "http://localhost:3000/tasks/2?page=1&limit=10&title=SampleTitle&sortBy=id&order=asc"
+```
 
 
 Create a New Task
